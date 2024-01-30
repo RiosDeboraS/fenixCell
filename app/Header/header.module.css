@@ -1,0 +1,40 @@
+.header {
+  padding: 20px;
+  border: 2px solid rgb(241, 106, 230);
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  top: 0;
+  width: 95%;
+  margin: 10px 10px 10px 50px;
+  background-color: #dedadabc;
+}
+
+.header img {
+  height: 120px;
+  width: 120px;
+  margin: 0 50px;
+  border-radius: 50%;
+  border: 2px black solid;
+}
+
+.header h1 {
+  margin: 0;
+  margin-left: 30%;
+}
+
+/* Para tabletas */
+@media (max-width: 768px) {
+  .header img {
+    height: 90px;
+    width: 90px;
+  }
+}
+
+/* Para celulares */
+@media (max-width: 480px) {
+  .header img {
+    height: 60px;
+    width: 60px;
+  }
+}
