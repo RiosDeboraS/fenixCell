@@ -3,11 +3,14 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { Carousel } from "bootstrap";
 import { useEffect, useState } from "react";
 
-const carrusel = () => {
+const Carrusel = () => {
   const [carouselElement, setCarouselElement] = useState(null);
+
   useEffect(() => {
     if (carouselElement) {
-      const carousel = new Carousel(carouselElement, {});
+      const carousel = new bootstrap.Carousel(
+        document.getElementById("carouselExampleCaptions")
+      );
     }
   }, [carouselElement]);
 
@@ -108,4 +111,4 @@ const carrusel = () => {
   );
 };
 
-export default carrusel;
+export default Carrusel;

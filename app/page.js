@@ -1,10 +1,10 @@
 import Header from "./Header/page";
-import Carrusel from "@/components/carrusel";
+import Carousel from "@/components/carrusel";
 import style from "./page.module.css";
 import Footer from "@/components/footer";
 import Publicidad from "@/components/publicidad";
 import Store from "../components/store";
-import { Body } from "./body/page";
+
 import Contact from "./contacto/page";
 
 export default function Home() {
@@ -14,7 +14,7 @@ export default function Home() {
       <div>
         <Header />
       </div>
-      <Carrusel></Carrusel>
+      <Carousel></Carousel>
 
       <Store></Store>
       <Contact></Contact>
