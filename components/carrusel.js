@@ -1,18 +1,22 @@
 "use client";
-import "bootstrap/dist/css/bootstrap.min.css";
-import { Carousel } from "bootstrap";
 import { useEffect, useState } from "react";
 
-const Carrusel = () => {
-  const [carouselElement, setCarouselElement] = useState(null);
+export default function MyComponent() {
+  const [Carousel, setCarousel] = useState(null);
 
   useEffect(() => {
-    if (carouselElement) {
-      const carousel = new bootstrap.Carousel(
-        document.getElementById("carouselExampleCaptions")
-      );
-    }
-  }, [carouselElement]);
+    import("bootstrap").then((bootstrap) => {
+      const myCarouselElement = document.querySelector("#myCarousel");
+      if (myCarouselElement) {
+        setCarousel(
+          new bootstrap.Carousel(myCarouselElement, {
+            interval: 2000,
+            touch: false,
+          })
+        );
+      }
+    });
+  }, []);
 
   return (
     <div>
@@ -109,6 +113,4 @@ const Carrusel = () => {
       </div>
     </div>
   );
-};
-
-export default Carrusel;
+}
