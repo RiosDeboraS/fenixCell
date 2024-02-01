@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer
       style={{
-        position: "fixed",
+        position: "relative",
         left: 0,
         bottom: 0,
         width: "100%",

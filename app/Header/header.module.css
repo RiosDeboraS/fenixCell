@@ -1,13 +1,13 @@
 .header {
   padding: 20px;
-  border: 2px solid rgb(241, 106, 230);
+  border: 2px solid #f16ae6;
   border-radius: 50px;
   display: flex;
   align-items: center;
   top: 0;
   width: 95%;
   margin: 10px 10px 10px 50px;
-  background-color: #dedadabc;
+  background-color: #f9f9f9;
 }
 
 .header img {
@@ -21,6 +21,11 @@
 .header h1 {
   margin: 0;
   margin-left: 30%;
+  color: rgb(11, 11, 11);
+}
+
+.spam1 {
+  color: #f16ae6;
 }
 
 /* Para tabletas */

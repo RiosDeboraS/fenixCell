@@ -1,0 +1,36 @@
+.contenedor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; /* Nueva propiedad */
+  background-color: #f16ae6a1;
+}
+.redesSociales {
+  margin-top: 20px; /* Agrega un margen superior */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.facebook {
+  color: rgb(0, 81, 255);
+
+  height: 50px;
+  width: 50px;
+}
+
+.instagram {
+  color: rgb(247, 84, 220);
+  height: 50px;
+  width: 50px;
+}
+
+.tiktok {
+  color: black;
+  height: 50px;
+  width: 50px;
+}
+.whatsapp {
+  color: rgb(98, 255, 111);
+  height: 50px;
+  width: 50px;
+}

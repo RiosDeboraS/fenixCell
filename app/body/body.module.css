@@ -1,0 +1,31 @@
+.h1 {
+  justify-content: center;
+  display: flex;
+  margin: 30px;
+}
+
+.h1::before {
+  content: "";
+  position: absolute;
+  width: 200px;
+  height: 200%;
+  background: linear-gradient(#00ccff, #d400d4);
+  animation: animate 4s linear infinite;
+}
+
+.h1::after {
+  content: "";
+  position: absolute;
+  inset: 10px;
+  background: #0e153830;
+  border-radius: 16px;
+}
+
+@keyframes animate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
