@@ -1,0 +1,52 @@
+.contenido {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.h1 {
+  font-size: 75px;
+  margin: 25px;
+  text-shadow: 1px 1px 2px rgb(238, 38, 238), 0 0 25px rgb(245, 80, 237),
+    0 0 5px rgb(4, 1, 4);
+  color: rgb(11, 11, 11);
+}
+
+.spam1 {
+  font-size: 75px;
+  color: #f2a5ec;
+  text-shadow: 1px 1px 2px rgb(238, 38, 238), 0 0 25px rgb(239, 91, 239),
+    0 0 5px rgb(11, 11, 11);
+}
+
+.link {
+  font-size: 20px;
+  color: rgb(243, 198, 251);
+  justify-content: center;
+  display: flex;
+  margin: 10px;
+  text-shadow: 1px 1px 2px rgb(238, 38, 238), 0 0 25px rgb(245, 80, 237),
+    0 0 5px rgb(139, 0, 127);
+}
+
+/* Para tabletas */
+@media (max-width: 768px) {
+  .h1,
+  .spam1 {
+    font-size: 50px; /* Ajusta el tamaño del texto para tabletas */
+  }
+  .link {
+    font-size: 16px; /* Ajusta el tamaño del texto para tabletas */
+  }
+}
+
+/* Para celulares */
+@media (max-width: 480px) {
+  .h1,
+  .spam1 {
+    font-size: 30px; /* Ajusta el tamaño del texto para celulares */
+  }
+  .link {
+    font-size: 12px; /* Ajusta el tamaño del texto para celulares */
+  }
+}

@@ -1,30 +1,19 @@
-import Link from "@mui/material/Link";
 import LocalMallIcon from "@mui/icons-material/LocalMall";
+import style from "./store.module.css";
 
 const Store = () => {
   return (
-    <div
-      style={{
-        marginTop: "60px",
-        display: "flex",
-        flexDirection: "column", // Apila los elementos verticalmente
-        alignItems: "center", // Centra los elementos horizontalmente
-        justifyContent: "center", // Centra los elementos verticalmente
-        background: "#dedadabc",
-        height: "500px", // Define una altura para la div
-      }}
-    >
-      <h1 style={{ marginBottom: "30px" }}>Tienda</h1>
-      <Link to="/mail">
-        <LocalMallIcon
-          style={{
-            width: "300px",
-            height: "300px",
-            color: "#f16ae6",
-            cursor: "pointer",
-          }}
-        />{" "}
-      </Link>
+    <div className={style.div}>
+      <h1 className={style.conttext}>
+        <span className={style.coloredLetter}>S</span>
+        <span className={style.coloredLetter}>h</span>
+        <span className={style.coloredLetter}>o</span>
+        <span className={style.coloredLetter}>p</span>
+      </h1>
+      <br></br>
+      <a href="https://nicolasgalarzah.mercadoshops.com.ar/MLA-1655356864-silicona-para-super-succion-plancha-celulares-_JM">
+        <LocalMallIcon className={style.icon} />{" "}
+      </a>
     </div>
   );
 };

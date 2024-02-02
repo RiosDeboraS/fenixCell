@@ -14,7 +14,7 @@ const Footer = () => {
         padding: "10px 0",
       }}
     >
-      <p>Copyright © 2024 TuNombre</p>
+      <p>Copyright © 2024 FenixCell</p>
     </footer>
   );
 };

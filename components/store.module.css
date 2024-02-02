@@ -1,0 +1,35 @@
+.div {
+  display: flex;
+  flex-direction: column; /* Añadido */
+  align-items: center;
+  justify-content: center;
+  background: #dedadabc;
+  height: 500px;
+}
+.conttext {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.coloredLetter {
+  color: aliceblue;
+  text-shadow: 1px 1px 2px rgb(238, 38, 238), 0 0 25px rgb(245, 80, 237),
+    0 0 5px rgb(139, 0, 127);
+}
+
+.icon {
+  width: 300px;
+  height: 300px;
+  color: #f762f7;
+  cursor: pointer;
+
+  /* Define el color de fondo */
+  background-color: #f0f0f0; /* Un color claro */
+
+  /* Define los bordes resaltados */
+  border: 5px double #f762f7; /* Un color resaltado */
+
+  /* Agrega sombras para un efecto 3D */
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2), 6px 6px 10px rgba(0, 0, 0, 0.2),
+    9px 9px 15px rgba(0, 0, 0, 0.2);
+}

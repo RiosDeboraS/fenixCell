@@ -1,0 +1,27 @@
+/* Para tabletas */
+@media (max-width: 768px) {
+  .carousel-item img {
+    height: 300px; /* Ajusta el tamaño de la imagen para tabletas */
+    width: 300px; /* Ajusta el tamaño de la imagen para tabletas */
+  }
+}
+
+/* Para celulares */
+@media (max-width: 480px) {
+  .carousel-item img {
+    height: 200px; /* Ajusta el tamaño de la imagen para celulares */
+    width: 200px; /* Ajusta el tamaño de la imagen para celulares */
+  }
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+}
+.span {
+  display: inline;
+
+  color: rgb(36, 37, 37);
+  text-shadow: 1px 1px 2px rgb(238, 38, 238), 0 0 25px rgb(245, 80, 237),
+    0 0 5px rgb(139, 0, 127);
+}

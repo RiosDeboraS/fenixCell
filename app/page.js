@@ -4,16 +4,19 @@ import style from "./page.module.css";
 import Footer from "@/components/footer";
 import Publicidad from "@/components/publicidad";
 import Store from "../components/store";
+import Main from "./main/page";
 
-import Contact from "./contacto/page";
+import Contact from "../components/contacto";
 
 export default function Home() {
   return (
     <body className={style.body}>
-      <Publicidad></Publicidad>
+      <Publicidad intervalo={4000}></Publicidad>
       <div>
         <Header />
       </div>
+
+      <Main></Main>
       <Carousel></Carousel>
 
       <Store></Store>

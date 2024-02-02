@@ -1,6 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Audiowide&display=swap");
 
 .body {
-  background-color: #dedadabc;
+  background-color: #ffffffe5;
   font-family: "Audiowide", sans-serif;
+}
+
+/* Para tabletas */
+@media (max-width: 768px) {
+  .body {
+    font-size: 0.8em; /* Ajusta el tamaño del texto para tabletas */
+  }
+}
+
+/* Para celulares */
+@media (max-width: 480px) {
+  .body {
+    font-size: 0.6em; /* Ajusta el tamaño del texto para celulares */
+  }
 }

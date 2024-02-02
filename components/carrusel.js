@@ -1,5 +1,7 @@
 "use client";
 import { useEffect, useState } from "react";
+import "bootstrap/dist/css/bootstrap.min.css";
+import style from "./carrusel.module.css";
 
 export default function MyComponent() {
   const [Carousel, setCarousel] = useState(null);
@@ -20,16 +22,16 @@ export default function MyComponent() {
 
   return (
     <div>
-      <h1
-        style={{
-          marginBottom: "30px",
-          display: "flex",
-          flexDirection: "column",
-          alignItems: "center",
-          justifyContent: "center",
-        }}
-      >
-        Servicios
+      <h1 className={style.content}>
+        <span className={style.span}>S</span>
+        <span className={style.span}>e</span>
+        <span className={style.span}>r</span>
+        <span className={style.span}>v</span>
+        <span className={style.span}>i</span>
+        <span className={style.span}>c</span>
+        <span className={style.span}>i</span>
+        <span className={style.span}>o</span>
+        <span className={style.span}>s</span>
       </h1>
 
       <div id="carouselExampleCaptions" className="carousel slide">
@@ -63,7 +65,7 @@ export default function MyComponent() {
             <img
               src="/WhatsApp Image 2024-01-30 at 13.13.01.jpeg"
               className="d-block w-500  mx-auto"
-              style={{ height: "500px" }}
+              style={{ height: "500px", objectFit: "cover" }}
               alt="..."
             />
           </div>
@@ -71,7 +73,7 @@ export default function MyComponent() {
             <img
               src="/WhatsApp Image 2024-01-30 at 13.13.01.jpeg"
               className="d-block w-500  mx-auto"
-              style={{ height: "500px" }}
+              style={{ height: "500px", objectFit: "cover" }}
               alt="..."
             />
           </div>

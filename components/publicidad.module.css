@@ -1,0 +1,24 @@
+.publi {
+  display: flex;
+  justify-content: center;
+
+  align-items: center;
+  margin-top: 20px;
+  width: 100%;
+  height: 300px;
+
+  background-color: #0b0b0b;
+
+  border: 5px double #f762f7;
+
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2), 6px 6px 10px rgba(0, 0, 0, 0.2),
+    9px 9px 15px rgba(0, 0, 0, 0.2);
+  border-radius: 50px;
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 50px;
+}

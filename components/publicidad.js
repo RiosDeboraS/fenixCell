@@ -1,40 +1,39 @@
-import "bootstrap/dist/css/bootstrap.min.css";
+"use client";
+import React, { useState, useEffect } from "react";
+import style from "./publicidad.module.css";
+import ParticlesWall from "@/components/wallpeaper.jsx/ParticlesWall";
 
-const publicidad = () => {
+const images = [
+  "/Captura de pantalla (184).png",
+  "/Captura de pantalla (183).png",
+  "/Captura de pantalla (185).png",
+  "/Captura de pantalla (185).png",
+  "/Captura de pantalla (187).png",
+];
+
+const Publicidad = ({ intervalo }) => {
+  const [currentIndex, setCurrentIndex] = useState(0);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
+    }, intervalo);
+
+    return () => clearInterval(interval);
+  }, [intervalo]);
+
   return (
-    <div
-      id="carouselExampleSlidesOnly"
-      className="carousel slide mt-4 mb-4"
-      data-bs-ride="carousel"
-      data-bs-interval="5000"
-    >
-      <div className="carousel-inner">
-        <div className="carousel-item active">
-          <img
-            src="/celu.jpeg"
-            className="d-block   mx-auto"
-            style={{ height: "800px", width: "900px" }}
-            alt="..."
-          />
-        </div>
-        <div className="carousel-item">
-          <img
-            src="/WhatsApp Image 2024-01-30 at 13.13.01.jpeg"
-            className="d-block   mx-auto"
-            style={{ height: "800px", width: "900px" }}
-            alt="..."
-          />
-        </div>
-        <div className="carousel-item">
-          <img
-            src="/WhatsApp Image 2024-01-30 at 13.13.01.jpeg"
-            className="d-block   mx-auto"
-            style={{ height: "800px", width: "900px" }}
-            alt="..."
-          />
-        </div>
+    <>
+      <ParticlesWall></ParticlesWall>
+      <div className={style.publi}>
+        <img
+          src={images[currentIndex]}
+          alt="Publicidad"
+          className={style.img}
+        />
       </div>
-    </div>
+    </>
   );
 };
-export default publicidad;
+
+export default Publicidad;

@@ -1,4 +1,5 @@
 import React from "react";
+
 import styles from "./contacto.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -7,7 +8,10 @@ import {
   faTiktok,
   faWhatsapp,
 } from "@fortawesome/free-brands-svg-icons";
-
+import {
+  faEnvelope,
+  faMapLocationDot,
+} from "@fortawesome/free-solid-svg-icons";
 const Contact = () => {
   return (
     <div className={styles.contenedor}>
@@ -49,9 +53,16 @@ const Contact = () => {
         >
           <FontAwesomeIcon icon={faWhatsapp} className={styles.whatsapp} />
         </a>
-      </div>{" "}
-      <p>Dirección: Calle Mayor 123, Ciudad</p>
-      <p>Email: info@miempresa.com</p>
+        <a href="mailto:info@miempresa.com">
+          <FontAwesomeIcon icon={faEnvelope} className={styles.email} />
+        </a>
+      </div>
+      <br />
+      <br />
+      <br />
+      <FontAwesomeIcon icon={faMapLocationDot} className={styles.ubi} />
+      <p>Dirección: Eva Peron 456, Diamante, Argentina</p>
+
       <br />
     </div>
   );
