@@ -12,7 +12,18 @@ const Store = () => {
       </h1>
       <br></br>
       <a href="https://nicolasgalarzah.mercadoshops.com.ar/MLA-1655356864-silicona-para-super-succion-plancha-celulares-_JM">
-        <LocalMallIcon className={style.icon} />{" "}
+        <LocalMallIcon
+          style={{
+            width: "300px",
+            height: "300px",
+            color: "#f762f7",
+            cursor: "pointer",
+            backgroundColor: "#f0f0f0", // Un color claro
+            border: "5px double #f762f7", // Un color resaltado
+            boxShadow:
+              "3px 3px 5px rgba(0, 0, 0, 0.2), 6px 6px 10px rgba(0, 0, 0, 0.2), 9px 9px 15px rgba(0, 0, 0, 0.2)", // Agrega sombras para un efecto 3D
+          }}
+        />
       </a>
     </div>
   );
