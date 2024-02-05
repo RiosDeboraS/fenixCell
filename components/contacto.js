@@ -7,6 +7,7 @@ import {
   faInstagram,
   faTiktok,
   faWhatsapp,
+  faYoutube,
 } from "@fortawesome/free-brands-svg-icons";
 import {
   faEnvelope,
@@ -23,7 +24,7 @@ const Contact = () => {
       <h1 className={styles.redesSociales}>Nuestras Redes Sociales</h1>
       <div className={styles.redesSociales}>
         <a
-          href="https://www.facebook.com/miempresa"
+          href="https://www.facebook.com/FenixCellDte"
           target="_blank"
           rel="noreferrer"
         >
@@ -31,7 +32,7 @@ const Contact = () => {
         </a>
 
         <a
-          href="https://www.instagram.com/miempresa"
+          href="https://www.instagram.com/fenixcelldte/"
           target="_blank"
           rel="noreferrer"
         >
@@ -39,21 +40,27 @@ const Contact = () => {
         </a>
 
         <a
-          href="https://www.tiktok.com/@miempresa"
+          href="https://www.tiktok.com/@fenixcelldte "
           target="_blank"
           rel="noreferrer"
         >
           <FontAwesomeIcon icon={faTiktok} className={styles.tiktok} />
         </a>
-
         <a
-          href="https://api.whatsapp.com/send?phone=549111234567&text=Hola%2C%20me%20interesa%20saber%20más%20sobre%20..."
+          href="https://www.youtube.com/@FenixCellDte"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <FontAwesomeIcon icon={faYoutube} className={styles.you} />
+        </a>
+        <a
+          href="https://api.whatsapp.com/send?phone=543435728485&text=Hola%21"
           target="_blank"
           rel="noreferrer"
         >
           <FontAwesomeIcon icon={faWhatsapp} className={styles.whatsapp} />
         </a>
-        <a href="mailto:info@miempresa.com">
+        <a href="fenixcelldte@gmail.com">
           <FontAwesomeIcon icon={faEnvelope} className={styles.email} />
         </a>
       </div>

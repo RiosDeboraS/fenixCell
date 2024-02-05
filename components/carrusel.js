@@ -63,7 +63,7 @@ export default function MyComponent() {
         <div className="carousel-inner">
           <div className="carousel-item active">
             <img
-              src="/WhatsApp Image 2024-01-30 at 13.13.01.jpeg"
+              src="\Captura de pantalla (189).png"
               className="d-block w-500  mx-auto"
               style={{ height: "500px", objectFit: "cover" }}
               alt="..."
@@ -71,7 +71,7 @@ export default function MyComponent() {
           </div>
           <div className="carousel-item">
             <img
-              src="/WhatsApp Image 2024-01-30 at 13.13.01.jpeg"
+              src="\Captura de pantalla (190).png"
               className="d-block w-500  mx-auto"
               style={{ height: "500px", objectFit: "cover" }}
               alt="..."
@@ -79,7 +79,7 @@ export default function MyComponent() {
           </div>
           <div className="carousel-item">
             <img
-              src="/WhatsApp Image 2024-01-30 at 13.13.01.jpeg"
+              src="\Captura de pantalla (191).png"
               className="d-block w-500  mx-auto"
               style={{ height: "500px" }}
               alt="..."

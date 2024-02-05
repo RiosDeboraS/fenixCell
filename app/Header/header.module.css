@@ -16,6 +16,7 @@
   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2), 6px 6px 10px rgba(0, 0, 0, 0.2),
     9px 9px 15px rgba(0, 0, 0, 0.2);
   border: 2px groove #0b0a0b;
+  position: static;
 }
 
 .header h1 {

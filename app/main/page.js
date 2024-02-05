@@ -8,7 +8,7 @@ const main = () => {
         <span>Cell</span>
         <nav>
           <a
-            href="https://nicolasgalarzah.mercadoshops.com.ar/MLA-1655356864-silicona-para-super-succion-plancha-celulares-_JM"
+            href="https://nicolasgalarzah.mercadoshops.com.ar/"
             className={style.link}
           >
             Tienda

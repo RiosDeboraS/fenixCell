@@ -11,7 +11,7 @@ const Store = () => {
         <span className={style.coloredLetter}>p</span>
       </h1>
       <br></br>
-      <a href="https://nicolasgalarzah.mercadoshops.com.ar/MLA-1655356864-silicona-para-super-succion-plancha-celulares-_JM">
+      <a href="https://nicolasgalarzah.mercadoshops.com.ar/">
         <LocalMallIcon
           style={{
             width: "300px",
