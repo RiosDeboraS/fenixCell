@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import style from "./carrusel.module.css";
-
+// nkfsdf
 export default function MyComponent() {
   const [Carousel, setCarousel] = useState(null);
 
