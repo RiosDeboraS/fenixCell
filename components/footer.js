@@ -1,5 +1,3 @@
-// Importa los estilos CSS o SCSS si los tienes
-// import './Footer.module.css';
 const Footer = () => {
   return (
     <footer

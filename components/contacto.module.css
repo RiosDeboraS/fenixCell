@@ -2,14 +2,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column; /* Nueva propiedad */
+  flex-direction: column;
   background-color: #ba6fb457;
   text-shadow: 1px 1px 2px rgb(238, 38, 238), 0 0 25px rgb(245, 80, 237),
     0 0 5px rgb(16, 15, 16);
   color: rgb(244, 238, 238);
 }
 .redesSociales {
-  margin-top: 20px; /* Agrega un margen superior */
+  margin-top: 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;

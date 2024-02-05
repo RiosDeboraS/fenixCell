@@ -18,8 +18,8 @@ const Store = () => {
             height: "300px",
             color: "#f762f7",
             cursor: "pointer",
-            backgroundColor: "#f0f0f0", // Un color claro
-            border: "5px double #f762f7", // Un color resaltado
+            backgroundColor: "#f0f0f0",
+            border: "5px double #f762f7",
             boxShadow:
               "3px 3px 5px rgba(0, 0, 0, 0.2), 6px 6px 10px rgba(0, 0, 0, 0.2), 9px 9px 15px rgba(0, 0, 0, 0.2)", // Agrega sombras para un efecto 3D
           }}
