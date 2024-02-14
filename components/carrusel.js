@@ -64,7 +64,7 @@ export default function MyComponent() {
           <div className="carousel-item active">
             <img
               src="\Captura de pantalla (189).png"
-              className="d-block w-500  mx-auto"
+              className="d-block w-500 img-fluid   mx-auto"
               style={{ height: "500px", objectFit: "cover" }}
               alt="..."
             />
@@ -72,7 +72,7 @@ export default function MyComponent() {
           <div className="carousel-item">
             <img
               src="\Captura de pantalla (190).png"
-              className="d-block w-500  mx-auto"
+              className="d-block w-500 img-fluid   mx-auto"
               style={{ height: "500px", objectFit: "cover" }}
               alt="..."
             />
@@ -80,7 +80,7 @@ export default function MyComponent() {
           <div className="carousel-item">
             <img
               src="\Captura de pantalla (191).png"
-              className="d-block w-500  mx-auto"
+              className="d-block w-500 img-fluid   mx-auto"
               style={{ height: "500px" }}
               alt="..."
             />
