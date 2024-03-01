@@ -1,0 +1,20 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #b202b821;
+}
+
+.image {
+  max-width: 80%;
+  max-height: 80%;
+  margin: 20px auto;
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    height: 80vh;
+  }
+}

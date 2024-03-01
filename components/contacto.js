@@ -16,6 +16,15 @@ import {
 const Contact = () => {
   return (
     <div className={styles.contenedor}>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+
       <h1>Contacto</h1>
       <p>
         Si tienes alguna pregunta o quieres contactarnos, puedes hacerlo a

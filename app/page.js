@@ -5,8 +5,8 @@ import Footer from "@/components/footer";
 import Publicidad from "@/components/publicidad";
 import Store from "../components/store";
 import Main from "./main/page";
-
 import Contact from "../components/contacto";
+import { Calidades } from "@/components/calidades";
 
 export default function Home() {
   return (
@@ -18,7 +18,18 @@ export default function Home() {
 
       <Main></Main>
       <Carousel></Carousel>
+      <br></br>
+      <br></br>
 
+      <Calidades></Calidades>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
       <Store></Store>
       <Contact></Contact>
       <Footer></Footer>
