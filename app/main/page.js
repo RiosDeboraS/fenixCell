@@ -1,3 +1,5 @@
+"use client";
+
 import style from "./main.module.css";
 
 const main = () => {

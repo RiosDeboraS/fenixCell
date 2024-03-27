@@ -11,10 +11,10 @@ import { Calidades } from "@/components/calidades";
 export default function Home() {
   return (
     <body className={style.body}>
-      <Publicidad intervalo={4000}></Publicidad>
-      <div>
+      {/*<Publicidad intervalo={4000}></Publicidad>*/}
+      {/* <div>
         <Header />
-      </div>
+      </div> */}
 
       <Main></Main>
       <Carousel></Carousel>
